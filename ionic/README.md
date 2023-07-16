@@ -1,49 +1,90 @@
 # Ionic (Cordova)
 ## ionic serve
-```ionic serve```
+```
+ionic serve
+```
 ## cordova build debug for android
-```ionic cordova build --debug/--release android```
+```
+ionic cordova build --debug/--release android
+```
 ## You can check if Java JDK, Android SDK, Gradle are properly installed before building an app.
-```cordova requirements android --verbose ``
+```
+cordova requirements android --verbose 
+```
 ## Remove platform : android
-```ionic cordova platform rm android```
+```
+ionic cordova platform rm android
+```
 ## Add ionic platform  (cordova platform add <platform>)
-```ionic cordova platform add android```
+```
+ionic cordova platform add android```
 ## 
-```npm i -g native-run```
+```
+npm i -g native-run
+```
 ## Build android 
-```ionic cordova build android```
+```
+ionic cordova build android
+```
 ## Build android
-```ionic cordova run android -l```
+```
+ionic cordova run android -l
+```
  ## Build android and run in external device
-```ionic cordova run android -l --external```
+```
+ionic cordova run android -l --external
+```
 ##  add cordova plugin androidx
-```ionic cordova plugin add cordova-plugin-androidx```
+```
+ionic cordova plugin add cordova-plugin-androidx
+```
 ## cordova plugin androidx adapter
-```ionic cordova plugin add cordova-plugin-androidx-adapter```
+```
+ionic cordova plugin add cordova-plugin-androidx-adapter
+```
 ## Ionic command list 
-```Ionic command```
+```
+Ionic command
+```
 ## Ionic generate (page moduel and all)
-```Ionic generate```
+```
+Ionic generate
+```
 ## Generate ionic page by folder
-```Ionic generate page recepis/recepis-deatails ```
+```
+Ionic generate page recepis/recepis-deatails
+```
 
 # Ionic Capacitor
 Ionic, Capacitor and Android Studio | DigitalOcean Android Development - [Ionic Documentation](ionicframework.com)
 ## Build android and run in external device
-```ionic capacitor run android -l --external```
+```
+ionic capacitor run android -l --external
+```
 ## Build android 
-```ionic capacitor build android```
+```
+ionic capacitor build android
+```
 ## ionic integrations enable capacitor
-```ionic integrations enable capacitor```
+```
+ionic integrations enable capacitor
+```
 ## remove android folder
-```rm -rf android/```
+```
+rm -rf android/
+```
 ## Add capacitor android
-```npx cap add android```
+```
+npx cap add android
+```
 ## Cpacitor sync android
-```npx cap sync android```
+```
+npx cap sync android
+```
 ## Add package id and app name 
-```npx cap init ? App name: CapApp ? App Package ID:com.mydomain.myappname```
+```
+npx cap init ? App name: CapApp ? App Package ID:com.mydomain.myappname
+```
 
 ## Steps for ionic capacitor andtroid build : 
 1. ```ionic build```
@@ -62,7 +103,9 @@ android/app/build/outputs/apk/debug/app-debug.apk
 
 
 ## ReferenceError: globalThis is not defined
-```npm install globalthis```
+```
+npm install globalthis
+```
 
 ## Capacitor can’t build due to AndroidX conflicts, at a total loss on how to fix
 
