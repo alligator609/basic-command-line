@@ -1,22 +1,20 @@
-#  Show databases
-``` show databases ```
-# to create new db
-```use test```
-# for all collections
-```show collections```
-# for inserting new 
-```db.users.insert({ id: 1,name:"terst",age:24 })```
-# Drop database
-```db.dropDatabase(test)  ```
-# Know your current selected database
-```db```
-# create backup (Linux)
-```sudo mongodump --db newdb --out /var/backups/mongobackups/$(date +'%m-%d-%y')```
-
-# Resotore database (Linux)
-```sudo mongorestore --db newdb --drop /var/backups/mongobackups/10-29-20/newdb/```
-# create backup (Windows)
-```mongodump -d AmeliaFinalDB2023 -o "C:\DBBackup"```
-# Resotore database (Windows)
-
-```mongorestore -d AmeliaFinalDB2023 D:\DBBackup\DB2023```
+# Serve angular project
+```ng serve```
+#  Generate angular component 
+```ng g c Componentname```
+# Generate angular module
+```ng g m module-name```
+# Serve angular in different port
+```ng serve --open --port 4201 (use different port)```
+# Build angular project to production 
+```ng build```
+# Generate angular component without test 
+```ng generate component --skip-tests=true component-name```
+# Generate pages with routing 
+```ng g m pages/pages --routing```
+# Create guard , skip test
+```ng g guard admin --skip-tests```
+# Create directives
+```ng g d has-role --skip-tests // creating directives```
+# Config angular version mismatch 
+```ng config -g cli.warnings.versionMismatch false"```
