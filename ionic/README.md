@@ -17,7 +17,8 @@ ionic cordova platform rm android
 ```
 ## Add ionic platform  (cordova platform add <platform>)
 ```
-ionic cordova platform add android```
+ionic cordova platform add android
+```
 ## 
 ```
 npm i -g native-run
@@ -106,7 +107,6 @@ android/app/build/outputs/apk/debug/app-debug.apk
 ```
 npm install globalthis
 ```
-
 ## Capacitor can’t build due to AndroidX conflicts, at a total loss on how to fix
 
 1. ```npm install jetifier```
