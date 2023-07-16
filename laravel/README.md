@@ -17,3 +17,5 @@ php artisan key:generate
 php artisan make:model Settings --migration
 
 php artisan route:list
+
+php artisan serve
