@@ -115,9 +115,16 @@ npm install globalthis
 which changed the import reference from: `import android.support.v4.app.ActivityCompat;`
 
 # Add java home and android home path
+## if you are using WINDOWS follow these steps to change JAVA_HOME path.
 
-    if you are using WINDOWS follow these steps to change JAVA_HOME path.
 1. go to my computer properties.
 2. click on Advanced system settings (A new window will be open).
-3. click on Enviroment Variables Button.
+3. click on Environment Variables Button.
 4. in System variables panel. find JAVA_HOME variable and click on EDIT.
+
+
+## Chrome dev list 
+   
+```
+    chrome://inspect/#devices
+```
