@@ -120,7 +120,8 @@ which changed the import reference from: `import android.support.v4.app.Activity
 1. go to my computer properties.
 2. click on Advanced system settings (A new window will be open).
 3. click on Environment Variables Button.
-4. in System variables panel. find JAVA_HOME variable and click on EDIT.
+4. in System variables panel. find JAVA_HOME variable, add new or click on EDIT.
+5. Example 'C:\Program Files\Java\jdk-17' 
 
 
 ## Chrome dev list 
