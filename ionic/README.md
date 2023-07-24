@@ -129,3 +129,22 @@ which changed the import reference from: `import android.support.v4.app.Activity
 ```
     chrome://inspect/#devices
 ```
+
+## Android emulator cannot acces api use IP 10.0.2.2 
+10.0.2.2	Special alias to your host loopback interface (127.0.0.1 on your development machine)
+
+## Errors 
+### “Webpage not available… The webpage http://localhost:8100/ 17 could not be loaded because: net::ERR_CLEARTEXT_NOT_PERMITTED”
+
+just try
+```
+npm i -g native-run
+```
+then
+```
+ionic capacitor run android -lc --host=0.0.0.0 -native-run
+```
+for live-reload
+
+
+ 
