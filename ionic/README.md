@@ -120,7 +120,8 @@ which changed the import reference from: `import android.support.v4.app.Activity
 1. go to my computer properties.
 2. click on Advanced system settings (A new window will be open).
 3. click on Environment Variables Button.
-4. in System variables panel. find JAVA_HOME variable and click on EDIT.
+4. in System variables panel. find JAVA_HOME variable, add new or click on EDIT.
+5. Example 'C:\Program Files\Java\jdk-17' 
 
 
 ## Chrome dev list (Open in url)
@@ -177,3 +178,21 @@ Ios
 cordova-res ios --skip-config --copy
 ```
 
+## Android emulator cannot acces api use IP 10.0.2.2 
+10.0.2.2	Special alias to your host loopback interface (127.0.0.1 on your development machine)
+
+## Errors 
+### “Webpage not available… The webpage http://localhost:8100/ 17 could not be loaded because: net::ERR_CLEARTEXT_NOT_PERMITTED”
+
+just try
+```
+npm i -g native-run
+```
+then
+```
+ionic capacitor run android -lc --host=0.0.0.0 -native-run
+```
+for live-reload
+
+
+ 
