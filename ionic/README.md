@@ -123,8 +123,57 @@ which changed the import reference from: `import android.support.v4.app.Activity
 4. in System variables panel. find JAVA_HOME variable and click on EDIT.
 
 
-## Chrome dev list 
+## Chrome dev list (Open in url)
    
 ```
     chrome://inspect/#devices
 ```
+
+
+
+## Create App Icon And Spash Screen  (CAPACITOR)
+1. First, install @capacitor/assets:
+```
+npm install @capacitor/assets --save-dev
+
+```
+2. Provide icon and splash screen source images using this folder/filename structure:
+
+resources/
+├── icon-only.png
+├── icon-foreground.png
+├── icon-background.png
+├── splash.png
+└── splash-dark.png
+3.  generate (which applies to your native projects or generates a PWA manifest file):
+```
+npx capacitor-assets generate
+
+```
+
+
+[REf](https://capacitorjs.com/docs/guides/splash-screens-and-icons)
+## Create App Icon And Spash Screen  (CORDOVA)
+
+1. First, install cordova-res: 
+
+```
+npm install -g cordova-res
+```
+2. cordova-res expects a Cordova-like structure: place one icon and one splash screen file in a top-level resources folder within your project.like so: 
+resources/android
+├── icon.png
+└── splash.png
+ Note: Spash size is 1920x1920 
+
+3. Next, run the following to generate all images then copy them into the native projects:
+Android: 
+```
+cordova-res android --skip-config --copy
+
+```
+Ios
+```
+cordova-res ios --skip-config --copy
+```
+
