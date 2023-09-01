@@ -19,3 +19,5 @@ php artisan make:model Settings --migration
 php artisan route:list
 
 php artisan serve
+
+php artisan migrate:fresh --seed 
