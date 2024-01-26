@@ -35,5 +35,6 @@ mongodump -d AmeliaFinalDB2023 -o "C:\DBBackup"
 # Resotore database (Windows)
 
 ```
-mongorestore -d AmeliaFinalDB2023 D:\DBBackup\DB2023
+mongorestore --nsInclude=DB2023.* C:\DBbackup\DB2023
+
 ```
