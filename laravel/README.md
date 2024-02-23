@@ -12,6 +12,8 @@ php artisan db:wipe
 
 php artisan make:controller UserController
 
+php artisan make:resource UserResource
+
 php artisan key:generate
 
 php artisan make:model Settings --migration
