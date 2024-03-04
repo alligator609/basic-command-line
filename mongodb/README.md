@@ -38,3 +38,9 @@ mongodump -d AmeliaFinalDB2023 -o "C:\DBBackup"
 mongorestore --nsInclude=DB2023.* C:\DBbackup\DB2023
 
 ```
+# create backup using auth 
+```
+mongodump --uri="mongodb://grandadmin:password@localhost:27017/DatabaseCollection" --authenticationDatabase=admin --out="C:\DBBackup"
+```
+
+
